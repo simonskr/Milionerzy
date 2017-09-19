@@ -26,7 +26,8 @@ namespace Milionerzy
                 AnswerA = "Żółtego",
                 AnswerB = "Białego",
                 AnswerC = "Niebieskiego",
-                AnswerD = "Czerwonego"
+                AnswerD = "Czerwonego",
+                Answer = 'C'
             },
             new Question()
             {
@@ -35,25 +36,28 @@ namespace Milionerzy
                 AnswerA = "Rekin",
                 AnswerB = "Delfin",
                 AnswerC = "Flądra",
-                AnswerD = "Makrela"
+                AnswerD = "Makrela",
+                Answer = 'B'
             },
             new Question()
             {
                 ID = 3,
-                Text = "Które z poniższych nie jest owadem",
+                Text = "Które z poniższych nie jest owadem ani pająkiem",
                 AnswerA = "Jelonek rogacz",
                 AnswerB = "Tygrzyk paskowany",
                 AnswerC = "Czubajka",
-                AnswerD = "Komar"
+                AnswerD = "Komar",
+                Answer = 'C'
             },
             new Question()
             {
                 ID = 4,
-                Text = "Które anime nie należy do gatunku harem?",
+                Text = "Które z wymienionych anime nie należy do gatunku harem?",
                 AnswerA = "Sword Art Online",
                 AnswerB = "Kono Subarashii Sekai ni Shukufuku wo!",
                 AnswerC = "Date a Live",
-                AnswerD = "No.6"
+                AnswerD = "No.6",
+                Answer = 'D'
             },
             new Question()
             {
@@ -62,7 +66,8 @@ namespace Milionerzy
                 AnswerA = "SCRUM",
                 AnswerB = "Kanban",
                 AnswerC = "Agile",
-                AnswerD = "SOLID"
+                AnswerD = "SOLID",
+                Answer = 'D'
             }
         };
     }
