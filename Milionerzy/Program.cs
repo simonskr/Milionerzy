@@ -4,12 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// TODO
-/// - Przerwać grę po błędnej odpowiedzi
-/// - Wyjść z gracją :)
-/// </summary>
-
 namespace Milionerzy
 {
     class Program

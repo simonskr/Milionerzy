@@ -1,0 +1,4 @@
+﻿- Przerwać grę po błędnej odpowiedzi
+- Wyjść z gracją :)
+- Poziomy pieniężne
+- Pobieranie pytań z bazy danych
