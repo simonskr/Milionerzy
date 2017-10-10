@@ -1,24 +1,9 @@
-﻿CREATE DATABASE Millionaire
+﻿USE [Millionaire]
 GO
 
-USE [Millionaire]
+INSERT INTO [Questions]
+	([Text], AnswerA, AnswerB, AnswerC, AnswerD, Answer)
+VALUES
+	('Jakiego koloru jest chaber bławatek?', 'Żółtego', 'Białego', 'Niebieskiego', 'Czerwonego', 'C'),
+	('Które z wymienionych nie jest rybą?', 'Rekin', 'Delfin', 'Flądra', 'Makrela', 'B')
 GO
-
-/****** Object: Table [dbo].[Questions] Script Date: 2017-10-10 20:38:46 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-CREATE TABLE [dbo].[Questions] (
-    [ID]      INT            IDENTITY (1, 1) NOT NULL,
-    [Text]    NVARCHAR (150) NOT NULL,
-    [AnswerA] NVARCHAR (50)  NOT NULL,
-    [AnswerB] NVARCHAR (50)  NOT NULL,
-    [AnswerC] NVARCHAR (50)  NOT NULL,
-    [AnswerD] NVARCHAR (50)  NOT NULL,
-    [Answer]  NCHAR (1)      NOT NULL
-);
-
-
