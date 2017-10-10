@@ -18,5 +18,13 @@ namespace Milionerzy
         public string AnswerD { get; set; }
 
         public char Answer { get; set; }
+
+        public bool IsCorrectAnswer(char answer)
+        {
+            if (char.ToUpperInvariant(answer) == char.ToUpperInvariant(Answer))
+                return true;
+            else
+                return false;
+        }
     }
 }

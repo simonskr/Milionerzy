@@ -23,17 +23,14 @@ namespace Milionerzy
 
                 char answer = GetUserAnswer();
 
-                CheckAnswerToQuestion(answer, question);
+                if (question.IsCorrectAnswer(answer))
+                    Console.WriteLine("Gratulacje - przechodzisz dalej!");
+                else
+                {
+                    Console.WriteLine($"Przykro mi - zła odpowiedź. Prawidłowa odpowiedź to {question.Answer}");
+                    Environment.Exit(0);
+                }
             }
-        }
-
-        // SPRAWDZENIE ODPOWIEDZI
-        private static void CheckAnswerToQuestion(char userAnswer, Question question)
-        {
-            if (char.ToUpperInvariant(userAnswer) == char.ToUpperInvariant(question.Answer))
-                Console.WriteLine("Gratulacje - przechodzisz dalej!");
-            else
-                Console.WriteLine($"Przykro mi - zła odpowiedź. Prawidłowa odpowiedź to {question.Answer}");
         }
 
         // POBIERANIE ODPOWIEDZI

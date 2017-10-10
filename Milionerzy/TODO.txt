@@ -1,4 +1,3 @@
-﻿- Przerwać grę po błędnej odpowiedzi
-- Wyjść z gracją :)
+﻿- Wyjść z gracją :)
 - Poziomy pieniężne
 - Pobieranie pytań z bazy danych
