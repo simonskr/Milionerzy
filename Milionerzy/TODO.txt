@@ -1,3 +1,2 @@
-﻿- Wyjść z gracją :)
-- Poziomy pieniężne
+﻿- Poziomy pieniężne
 - Pobieranie pytań z bazy danych
